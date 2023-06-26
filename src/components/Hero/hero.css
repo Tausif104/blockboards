@@ -1,0 +1,16 @@
+.banner-content h1 {
+  font-size: 64px;
+}
+
+.banner-content {
+  text-align: center;
+}
+
+section.banner-section {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+section.brand-section {
+  margin-top: 140px;
+}

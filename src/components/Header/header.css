@@ -1,1 +1,9 @@
+header nav {
+  background-color: transparent!important;
+}
 
+.navbar-nav a {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 35px;
+}

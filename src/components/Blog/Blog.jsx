@@ -1,6 +1,7 @@
 import Slider from 'react-slick'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import { FaArrowRightLong } from 'react-icons/fa6'
 import BlogItem from '../BlogItem/BlogItem'
 import ImageOne from './images/1.png'
 import ImageTwo from './images/2.png'
@@ -21,8 +22,8 @@ const Blog = () => {
         <Row>
           <Col xl={12}>
             <div className='section-title'>
-              <Link to='/' className='border-button'>
-                Blog
+              <Link to='/' className='button-border'>
+                Blog <FaArrowRightLong />
               </Link>
               <h2>Our Latest News</h2>
             </div>
@@ -37,7 +38,13 @@ const Blog = () => {
               date='April 6, 2021'
             />
             <BlogItem
-              image={ImageOne}
+              image={ImageTwo}
+              title='Individual coin ownership records are stored in a digital'
+              description='established fact that a reader will distracted by the readable content of a page'
+              date='April 6, 2021'
+            />
+            <BlogItem
+              image={ImageThree}
               title='Individual coin ownership records are stored in a digital'
               description='established fact that a reader will distracted by the readable content of a page'
               date='April 6, 2021'
@@ -49,19 +56,13 @@ const Blog = () => {
               date='April 6, 2021'
             />
             <BlogItem
-              image={ImageOne}
+              image={ImageTwo}
               title='Individual coin ownership records are stored in a digital'
               description='established fact that a reader will distracted by the readable content of a page'
               date='April 6, 2021'
             />
             <BlogItem
-              image={ImageOne}
-              title='Individual coin ownership records are stored in a digital'
-              description='established fact that a reader will distracted by the readable content of a page'
-              date='April 6, 2021'
-            />
-            <BlogItem
-              image={ImageOne}
+              image={ImageThree}
               title='Individual coin ownership records are stored in a digital'
               description='established fact that a reader will distracted by the readable content of a page'
               date='April 6, 2021'

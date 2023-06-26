@@ -1,5 +1,6 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import './hero.css'
 
 const Hero = () => {
   return (
@@ -11,7 +12,9 @@ const Hero = () => {
               <Link to='/' className='button-border'>
                 Explore roadmaps
               </Link>
-              <h1>Roadmaps Belong on the Blockchain</h1>
+              <h1>
+                Roadmaps Belong on <br /> the Blockchain
+              </h1>
               <p>Welcome to product roadmaps in web3</p>
               <Link to='/' className='primary-btn'>
                 Explore

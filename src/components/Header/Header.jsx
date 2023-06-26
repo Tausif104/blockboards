@@ -6,7 +6,7 @@ import './header.css'
 const Header = () => {
   return (
     <header>
-      <Navbar expand='lg' className='bg-body-tertiary'>
+      <Navbar expand='lg'>
         <Container>
           <Link to='/' className='navbar-brand'>
             <img src={Logo} alt='Site Logo' />

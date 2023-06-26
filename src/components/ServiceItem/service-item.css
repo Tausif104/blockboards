@@ -1,0 +1,32 @@
+.service-item {
+  border-radius: 30px;
+  background: rgba(217, 217, 217, 0.05);
+}
+
+.service-item-content h3 {
+  font-size: 28px;
+}
+
+
+.service-item {
+  text-align: center;
+  padding: 50px 43px;
+  height: 100%;
+}
+
+.service-item-content h3 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+
+.service-item-content p {
+  margin-bottom: 0;
+  line-height: 1.8;
+  font-size: 16px;
+  color: #ddd;
+}
+
+section.service-section {
+  margin-bottom: 140px;
+}

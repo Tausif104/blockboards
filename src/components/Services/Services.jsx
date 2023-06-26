@@ -4,6 +4,7 @@ import ImageOne from './images/1.svg'
 import ImageTwo from './images/2.svg'
 import ImageThree from './images/3.svg'
 import ServiceItem from '../ServiceItem/ServiceItem'
+import { FaArrowRightLong } from 'react-icons/fa6'
 
 const Services = () => {
   return (
@@ -12,12 +13,14 @@ const Services = () => {
         <Row>
           <Col xl={12}>
             <div className='section-title'>
-              <Link className='button-border'>Our Services</Link>
+              <Link className='button-border'>
+                Our Services <FaArrowRightLong />
+              </Link>
               <h2>Empower your web3 vision</h2>
               <p>
                 Harness the power of blockchain technology to share your project
-                roadmaps, ensuring absolute transparency and building unwavering
-                trust.
+                roadmaps, ensuring <br /> absolute transparency and building
+                unwavering trust.
               </p>
             </div>
           </Col>
