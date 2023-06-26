@@ -4,10 +4,16 @@ import ImageOne from './1.png'
 import ImageTwo from './2.png'
 import ImageThree from './3.png'
 import './how-works.css'
+import stepShape1 from './step-shape1.png'
+import stepShape2 from './step-shape2.png'
+import stepShape3 from './step-shape3.png'
 
 const HowItWorks = () => {
   return (
     <section className='how-it-works'>
+      <img className='step-shape1' src={stepShape1} alt="" />
+      <img className='step-shape2' src={stepShape2} alt="" />
+      <img className='step-shape3' src={stepShape3} alt="" />
       <Container>
         <Row>
           <Col xl={12}>

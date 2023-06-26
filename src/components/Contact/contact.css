@@ -5,6 +5,8 @@
 section.contact-section {
   margin-top: 140px;
   margin-bottom: 90px;
+  position: relative;
+  z-index: 1;
 }
 .contact-cta h2 {
   font-size: 48px;
@@ -23,3 +25,11 @@ section.contact-section {
   margin-bottom: 25px;
   line-height: 1.8;
 }
+
+/* .contact-shape {
+  position: absolute;
+  right: 0;
+  top: 90%;
+  transform: translateY(-50%);
+  z-index: -1;
+} */

@@ -2,11 +2,15 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './hero.css'
 import ParticlesWrapper from '../Particles/ParticlesWrapper'
+import bannerShape from './banner-shape1.png'
+import bannerShapeRight from './banner-shape2.png'
 
 const Hero = () => {
   return (
     <section className='banner-section'>
       <ParticlesWrapper id='tsparticles' />
+      <img className='banner-shape1' src={bannerShape} alt="" />
+      <img className='banner-shape-right' src={bannerShapeRight} alt="" />
       <Container>
         <Row>
           <Col xl={12}>

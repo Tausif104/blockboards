@@ -6,10 +6,12 @@ import sdk from './images/sdk.svg'
 import network from './images/network.svg'
 import projects from './images/projects.svg'
 import box from './images/box.svg'
+import roadmapShapeLeft from './images/roadmap-shape1.png'
 
 const Roadmap = () => {
   return (
     <section className='roadmap-section'>
+      <img className='roadmap-shape-left' src={roadmapShapeLeft} alt="" />
       <Container>
         <Row>
           <Col>

@@ -62,3 +62,28 @@
 .how-item-three-content {
     margin-bottom: 50px;
 }
+
+
+.how-it-works {
+    position: relative;
+    z-index: 1;
+}
+
+.step-shape1 {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.step-shape2 {
+    position: absolute;
+    top: 60%;
+    z-index: -1;
+}
+
+.step-shape3 {
+    position: absolute;
+    top: 60%;
+    right: 0;
+    z-index: -1;
+}

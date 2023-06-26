@@ -10,9 +10,9 @@ const AboutUs = () => {
   return (
     <section className='about-us'>
       <div className='shapes'>
-        <img className='blue-shape position-absolute' src={BlueShape} alt='' />
+        <img className='blue-shape' src={BlueShape} alt='' />
         <img
-          className='purple-shape position-absolute'
+          className='purple-shape'
           src={PurpleShape}
           alt=''
         />

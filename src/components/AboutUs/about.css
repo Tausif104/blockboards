@@ -1,21 +1,23 @@
 section.about-us {
   position: relative;
-}
-
-section.about-us .blue-shape {
-  top: 0;
-}
-
-.shapes img {
-  max-width: 600px;
-}
-
-section.about-us .blue-shape {
-  right: 0;
-}
-
-section.about-us {
+  z-index: 1;
   margin: 140px 0;
+}
+
+.about-us .blue-shape {
+  top: 50%;
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+.about-us .purple-shape {
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
 }
 
 .about-content h2 {
