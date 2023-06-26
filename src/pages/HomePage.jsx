@@ -1,10 +1,11 @@
 import Hero from '../components/Hero/Hero'
+import Roadmap from '../components/Roadmap/Roadmap'
 
 const HomePage = () => {
   return (
     <>
       <Hero />
-      <h2>Masum</h2>
+      <Roadmap />
     </>
   )
 }
