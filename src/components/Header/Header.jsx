@@ -1,6 +1,7 @@
 import { Container, Navbar, Nav } from 'react-bootstrap'
 import Logo from './logo.svg'
 import { Link } from 'react-router-dom'
+import './header.css'
 
 const Header = () => {
   return (
