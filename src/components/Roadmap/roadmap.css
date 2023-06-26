@@ -9,6 +9,9 @@
     position: relative;
     z-index: 2;
 }
+.modal-body {
+    color: #333;
+}
 
 .roadmap-shape-left {
     position: absolute;
