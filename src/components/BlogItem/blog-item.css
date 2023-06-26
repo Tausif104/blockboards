@@ -87,3 +87,30 @@ section.blog-section {
   top: 25%;
   z-index: -1;
 }
+
+
+@media screen and (max-width:1199px) {  
+  .section-title h2 {
+    font-size: 30px;
+  }
+
+  .blog-content h3 {
+    font-size: 18px;
+  }
+
+  .blog-content p {
+      font-size: 15px;
+  }
+  .blog-shape {
+      max-width: 100%;
+  }
+}
+
+@media screen and (max-width:991px) {  
+  section.blog-section {
+    margin-top: 80px;
+}
+.blog-shape {
+  max-width: 300px;
+}
+}

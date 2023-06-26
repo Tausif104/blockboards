@@ -48,3 +48,16 @@ section.service-section {
   transform: translateY(-50%);
   z-index: -1;
 }
+
+@media screen and (max-width:1199px) {
+  .service-item {
+      margin-bottom: 30px;
+      height: auto;
+  }
+}
+
+@media screen and (max-width:991px) {
+  section.service-section {
+    margin-bottom: 50px;
+}
+}

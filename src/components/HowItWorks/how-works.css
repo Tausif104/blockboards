@@ -87,3 +87,70 @@
     right: 0;
     z-index: -1;
 }
+
+
+@media screen and (max-width:991px) {
+    section.service-section {
+        margin-bottom: 50px;
+    }
+    
+    .section-title {
+        margin-bottom: 30px;
+    }
+    
+    .how-item.how-item-one .desktop-image {
+        display: none;
+    }
+    
+    .how-item-one-inner {
+        width: 100%;
+    }
+    
+    .how-item {
+        padding: 20px;
+        height: auto;
+    }
+    
+    .how-item {
+        margin-bottom: 0;
+    }
+    .how-item-two-inner img {
+        width: 100%;
+    }
+    .how-item.how-item-one img {
+        position: relative;
+    }
+    
+    .how-item-two-inner {display: flex;flex-direction: column;}
+    
+    .how-item-two-inner img {
+        order: 2;
+        margin-bottom: 0;
+    }
+    
+    .how-item-two-content {
+        text-align: center;
+    }
+    
+    .how-item h3 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .how-item h3 br {
+        display: none;
+    }
+    
+    .how-item p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .how-item-three-content {
+        text-align: center;
+    }
+    
+    .how-item-one-inner {
+        text-align: center;
+    }
+}

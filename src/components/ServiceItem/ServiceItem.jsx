@@ -4,8 +4,8 @@ import './service-item.css'
 
 const ServiceItem = ({ image, title, description }) => {
   return (
-    <Col xl={4}>
-      <div className='service-item'>
+    <Col xl={4} lg={6}>
+      <div className='service-item wow fadeInUp'>
         <img src={image} alt='' />
         <div className='service-item-content'>
           <h3>{title}</h3>

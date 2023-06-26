@@ -34,12 +34,12 @@ const Footer = () => {
           </Col>
         </Row>
         <Row className='footer-bottom'>
-          <Col xl={6}>
+          <Col lg={6}>
             <div className='copyright-text'>
               Copyright <span>©BlockRoads</span>. All rights reserved.
             </div>
           </Col>
-          <Col xl={6}>
+          <Col lg={6}>
             <div className='footer-menu'>
               <ul>
                 <li>

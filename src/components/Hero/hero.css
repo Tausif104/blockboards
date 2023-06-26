@@ -10,12 +10,9 @@ section.banner-section {
   padding-top: 160px;
   padding-bottom: 50px;
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
-section.brand-section {
-  margin-top: 140px;
-}
 
 .banner-shape1 {
   position: absolute;
@@ -30,4 +27,29 @@ section.brand-section {
   right: 0;
   top: -5%;
   z-index: -1;
+}
+
+.banner-content a.bordered-btn {
+  display: none;
+}
+
+
+@media screen and (max-width: 991px) {
+  .banner-content h1 {
+      font-size: 40px;
+  }
+  .banner-content a.bordered-btn {
+    display: inline-block;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner-content h1 {
+      font-size: 30px;
+      margin-top: 20px;
+  }
+  section.banner-section {
+      padding-top: 100px;
+  }
 }

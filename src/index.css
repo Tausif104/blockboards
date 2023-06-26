@@ -99,6 +99,32 @@ img {
   max-width: 100%;
 }
 
+a.primary-btn:hover {
+  transform: scale(0.9);
+  box-shadow: none;
+}
+
+a.primary-btn {
+  transition: 0.3s;
+}
+
+.navbar-nav a:hover {
+  color: #A70FCB;
+}
+
+a.bordered-btn {
+  border: 2px solid #B20CCE;
+  display: inline-block;
+  padding: 18px 30px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+a.bordered-btn:hover {
+  background-color: #C209E7;
+}
+
+
 @media (min-width: 1366px) {
     
 }

@@ -11,20 +11,16 @@ const AboutUs = () => {
     <section className='about-us'>
       <div className='shapes'>
         <img className='blue-shape' src={BlueShape} alt='' />
-        <img
-          className='purple-shape'
-          src={PurpleShape}
-          alt=''
-        />
+        <img className='purple-shape' src={PurpleShape} alt='' />
       </div>
       <Container>
         <Row className='align-items-center'>
-          <Col xl={6}>
+          <Col lg={6}>
             <div className='about-thumbnail'>
               <img src={AboutThumb} alt='' />
             </div>
           </Col>
-          <Col xl={6}>
+          <Col lg={6}>
             <div className='about-content'>
               <Link to='/' className='button-border'>
                 About us <FaArrowRightLong />

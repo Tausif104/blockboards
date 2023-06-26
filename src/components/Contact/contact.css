@@ -26,6 +26,15 @@ section.contact-section {
   line-height: 1.8;
 }
 
+@media screen and (max-width:991px) {
+  section.contact-section {
+      margin-top: 80px;
+  }
+  .contact-cta h2 {
+      font-size: 30px;
+  }
+}
+
 /* .contact-shape {
   position: absolute;
   right: 0;

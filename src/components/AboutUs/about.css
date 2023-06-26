@@ -60,6 +60,12 @@ a.button-border {
   display: inline-block;
 }
 
+a.primary-btn {
+  box-shadow: 0 0 20px #9800ff;
+}
+
+
+
 a.button-border svg {
   margin-bottom: 3px;
   margin-left: 8px;
@@ -70,4 +76,26 @@ a.button-border svg {
 
 .about-content h2 {
   margin-bottom: 0;
+}
+
+@media screen and (max-width:1199px) {
+  .about-content h2 {
+      font-size: 35px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .about-content {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  section.about-us {
+      margin: 80px 0;
+      margin-top: 30px;
+  }
+  .about-content {
+      text-align: center;
+  }
+  
 }

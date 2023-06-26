@@ -67,3 +67,22 @@
 .footer-menu ul a:hover {
     color: #6034C1;
 }
+
+@media screen and (max-width:1199px) {
+    .footer-container {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .copyright-text {
+        text-align: center;
+    }
+    
+    .footer-menu ul {
+        justify-content: center;
+        gap: 0 25px;
+        margin-top: 15px;
+    }
+}

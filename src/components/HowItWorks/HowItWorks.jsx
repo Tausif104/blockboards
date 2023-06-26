@@ -3,17 +3,18 @@ import { Link } from 'react-router-dom'
 import ImageOne from './1.png'
 import ImageTwo from './2.png'
 import ImageThree from './3.png'
-import './how-works.css'
+import MobileOne from './mobile-1.png'
 import stepShape1 from './step-shape1.png'
 import stepShape2 from './step-shape2.png'
 import stepShape3 from './step-shape3.png'
+import './how-works.css'
 
 const HowItWorks = () => {
   return (
     <section className='how-it-works'>
-      <img className='step-shape1' src={stepShape1} alt="" />
-      <img className='step-shape2' src={stepShape2} alt="" />
-      <img className='step-shape3' src={stepShape3} alt="" />
+      <img className='step-shape1' src={stepShape1} alt='' />
+      <img className='step-shape2' src={stepShape2} alt='' />
+      <img className='step-shape3' src={stepShape3} alt='' />
       <Container>
         <Row>
           <Col xl={12}>
@@ -30,17 +31,19 @@ const HowItWorks = () => {
                 <Link to='/' className='button-border'>
                   Step 1:
                 </Link>
-                <h3>Enter your <br /> roadmap details</h3>
+                <h3>
+                  Enter your <br /> roadmap details
+                </h3>
                 <p>Break down project roadmaps into milestones.</p>
                 <p>
                   Optionally set target launch dates (date, month, quarter,
                   etc.)
                 </p>
               </div>
-              <img src={ImageOne} alt='' />
+              <img className='desktop-image' src={ImageOne} alt='' />
             </div>
           </Col>
-          <Col xl={6}>
+          <Col lg={6}>
             <div className='how-item how-item-two'>
               <div className='how-item-two-inner'>
                 <img src={ImageTwo} alt='' />
@@ -48,13 +51,15 @@ const HowItWorks = () => {
                   <Link to='/' className='button-border'>
                     Step 2:
                   </Link>
-                  <h3>Sign in with <br /> Ethereum</h3>
+                  <h3>
+                    Sign in with <br /> Ethereum
+                  </h3>
                   <p>Connect with your favorite web3 wallet</p>
                 </div>
               </div>
             </div>
           </Col>
-          <Col xl={6}>
+          <Col lg={6}>
             <div className='how-item how-item-three'>
               <div className='how-item-three-inner'>
                 <div className='how-item-three-content'>

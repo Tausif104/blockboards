@@ -7,7 +7,7 @@
 
 .roadmap-section {
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 .roadmap-shape-left {
@@ -169,6 +169,9 @@
 .roadmap-item-common .shape-left, .roadmap-item-common .shape-right {
     display: none;
 }
+.roadmap-buttons a {
+    box-shadow: none;
+  }
 
 
 @media (max-width: 1366px) {
@@ -316,6 +319,9 @@
     .roadmap-buttons .primary-btn {
         border-radius: 6px;
         padding: 7px 10px;
+    }
+    section.roadmap-section {
+        overflow: hidden;
     }
 }
 @media (max-width: 425px) {
