@@ -13,14 +13,12 @@ const HomePage = () => {
     <>
       <Hero />
       <Roadmap />
-      <div className='bg-solid'>
-        <Brands />
-        <AboutUs />
-        <Services />
-        <HowItWorks />
-        <Blog />
-        <Contact />
-      </div>
+      <Brands />
+      <AboutUs />
+      <Services />
+      <HowItWorks />
+      <Blog />
+      <Contact />
     </>
   )
 }
