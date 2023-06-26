@@ -4,6 +4,7 @@
   left: 0;
   height: 735px;
   z-index: -1;
+  width: 100%;
 }
 
 div#tsparticles {

@@ -75,3 +75,7 @@ li.slick-active button {
   margin-top: 15px;
   margin-bottom: 0;
 }
+
+section.blog-section {
+  margin-top: 140px;
+}
