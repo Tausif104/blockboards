@@ -29,4 +29,22 @@
 
 section.service-section {
   margin-bottom: 140px;
+  position: relative;
+  z-index: 1;
+}
+
+.service-shape-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+.service-shape-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
 }

@@ -5,6 +5,18 @@
     border: 1px solid #454248;
 }
 
+.roadmap-section {
+    position: relative;
+    z-index: 1;
+}
+
+.roadmap-shape-left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
 
 .roadmap-content {
     display: grid;

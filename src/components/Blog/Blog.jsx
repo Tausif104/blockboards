@@ -6,6 +6,7 @@ import BlogItem from '../BlogItem/BlogItem'
 import ImageOne from './images/1.png'
 import ImageTwo from './images/2.png'
 import ImageThree from './images/3.png'
+import blogShape from './images/blog-shape.png'
 
 const Blog = () => {
   const settings = {
@@ -18,6 +19,7 @@ const Blog = () => {
   }
   return (
     <section className='blog-section'>
+      <img className='blog-shape' src={blogShape} alt="" />
       <Container>
         <Row>
           <Col xl={12}>

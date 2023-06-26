@@ -78,4 +78,12 @@ li.slick-active button {
 
 section.blog-section {
   margin-top: 140px;
+  position: relative;
+  z-index: 1;
+}
+
+.blog-shape {
+  position: absolute;
+  top: 25%;
+  z-index: -1;
 }

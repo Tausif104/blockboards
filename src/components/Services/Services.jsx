@@ -5,10 +5,14 @@ import ImageTwo from './images/2.svg'
 import ImageThree from './images/3.svg'
 import ServiceItem from '../ServiceItem/ServiceItem'
 import { FaArrowRightLong } from 'react-icons/fa6'
+import serviceShapeLeft from './images/service-shape-left.png'
+import serviceShapeRight from './images/service-shape-right.png'
 
 const Services = () => {
   return (
     <section className='service-section'>
+      <img className='service-shape-left' src={serviceShapeLeft} alt="" />
+      <img className='service-shape-right' src={serviceShapeRight} alt="" />
       <Container>
         <Row>
           <Col xl={12}>

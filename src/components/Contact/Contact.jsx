@@ -2,10 +2,12 @@ import { Col, Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import './contact.css'
+// import contactShape from './contact-shape.png'
 
 const Contact = () => {
   return (
     <section className='contact-section'>
+      {/* <img className='contact-shape' src={contactShape} alt="" /> */}
       <Container>
         <Col xl={12}>
           <div className='contact-cta'>
