@@ -1,17 +1,18 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import FooterLogo from './logo.svg'
 import { FaDiscord, FaTwitter, FaTelegram, FaYoutube } from 'react-icons/fa6'
+import './footer.css'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='footer-area'>
       <Container>
         <Row>
           <Col xl={12}>
             <div className='footer-container'>
               <div className='main-footer'>
                 <img src={FooterLogo} alt='' />
-                <ul>
+                <ul className='footer-social'>
                   <li>
                     <a href='' target='_blank'>
                       <FaTwitter />
@@ -31,12 +32,10 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
-        <Row>
+        <Row className='footer-bottom'>
           <Col xl={6}>
             <div className='copyright-text'>
-              <span>
                 Copyright <span>©BlockRoads</span>. All rights reserved.
-              </span>
             </div>
           </Col>
           <Col xl={6}>

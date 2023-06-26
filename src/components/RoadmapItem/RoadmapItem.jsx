@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Button, Modal } from 'react-bootstrap'
 import lineShapeBottom from './images/line-shape-bottom.png'
 import lineShapetop from './images/line-shape-top.png'
+import shapeLeft from './images/shape-left.png'
+import shapeRight from './images/shape-right.png'
 
 const RoadmapItem = ({ item, inverted, roadmapCount }) => {
   const [show, setShow] = useState(false)
@@ -30,6 +32,8 @@ const RoadmapItem = ({ item, inverted, roadmapCount }) => {
         <div className="circle"></div>
         <div className="description-box">
           <h4>{item.title}</h4>
+          <img className='shape-left' src={shapeLeft} alt="" />
+          <img className='shape-right' src={shapeRight} alt="" />
           <p>{item.description}</p>
           <Button variant='inline' onClick={handleShow}>
             Read more
