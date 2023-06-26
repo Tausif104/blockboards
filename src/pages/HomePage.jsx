@@ -4,6 +4,7 @@ const HomePage = () => {
   return (
     <>
       <Hero />
+      <h2>wow</h2>
     </>
   )
 }
