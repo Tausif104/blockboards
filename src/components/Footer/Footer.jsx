@@ -2,6 +2,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import FooterLogo from './logo.svg'
 import { FaDiscord, FaTwitter, FaTelegram, FaYoutube } from 'react-icons/fa6'
 import './footer.css'
+import ParticlesWrapper from '../Particles/ParticlesWrapper'
 
 const Footer = () => {
   return (
@@ -35,7 +36,7 @@ const Footer = () => {
         <Row className='footer-bottom'>
           <Col xl={6}>
             <div className='copyright-text'>
-                Copyright <span>©BlockRoads</span>. All rights reserved.
+              Copyright <span>©BlockRoads</span>. All rights reserved.
             </div>
           </Col>
           <Col xl={6}>

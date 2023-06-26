@@ -1,10 +1,12 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './hero.css'
+import ParticlesWrapper from '../Particles/ParticlesWrapper'
 
 const Hero = () => {
   return (
     <section className='banner-section'>
+      <ParticlesWrapper id='tsparticles' />
       <Container>
         <Row>
           <Col xl={12}>
