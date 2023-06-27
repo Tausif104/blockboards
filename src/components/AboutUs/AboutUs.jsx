@@ -16,12 +16,12 @@ const AboutUs = () => {
       <Container>
         <Row className='align-items-center'>
           <Col lg={6}>
-            <div className='about-thumbnail'>
+            <div className='about-thumbnail' data-aos='fade-right'>
               <img src={AboutThumb} alt='' />
             </div>
           </Col>
           <Col lg={6}>
-            <div className='about-content'>
+            <div className='about-content' data-aos='fade-left'>
               <Link to='/' className='button-border'>
                 About us <FaArrowRightLong />
               </Link>

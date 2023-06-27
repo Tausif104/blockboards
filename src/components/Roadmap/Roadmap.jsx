@@ -11,18 +11,26 @@ import roadmapShapeLeft from './images/roadmap-shape1.png'
 const Roadmap = () => {
   return (
     <section className='roadmap-section'>
-      <img className='roadmap-shape-left' src={roadmapShapeLeft} alt="" />
+      <img className='roadmap-shape-left' src={roadmapShapeLeft} alt='' />
       <Container>
         <Row>
-          <Col>
-            <div className="roadmap-box-wrap">
-              <div className="roadmap-title-wrap">
+          <Col data-aos='zoom-in'>
+            <div className='roadmap-box-wrap'>
+              <div className='roadmap-title-wrap'>
                 <h3>Your Roadmap</h3>
-                <div className="roadmap-buttons">
-                  <a href="#" className="primary-btn"><img src={sdk} alt="" /> SubQuery SDK</a>
-                  <a href="#" className="primary-btn"><img src={network} alt="" /> SubQuery Network</a>
-                  <a href="#" className="primary-btn"><img src={projects} alt="" /> SubQuery Projects</a>
-                  <a href="#" className="primary-btn"><img src={box} alt="" /> Other</a>
+                <div className='roadmap-buttons'>
+                  <a href='#' className='primary-btn'>
+                    <img src={sdk} alt='' /> SubQuery SDK
+                  </a>
+                  <a href='#' className='primary-btn'>
+                    <img src={network} alt='' /> SubQuery Network
+                  </a>
+                  <a href='#' className='primary-btn'>
+                    <img src={projects} alt='' /> SubQuery Projects
+                  </a>
+                  <a href='#' className='primary-btn'>
+                    <img src={box} alt='' /> Other
+                  </a>
                 </div>
               </div>
               <div className='roadmap-content'>

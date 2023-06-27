@@ -11,11 +11,11 @@ import serviceShapeRight from './images/service-shape-right.png'
 const Services = () => {
   return (
     <section className='service-section'>
-      <img className='service-shape-left' src={serviceShapeLeft} alt="" />
-      <img className='service-shape-right' src={serviceShapeRight} alt="" />
+      <img className='service-shape-left' src={serviceShapeLeft} alt='' />
+      <img className='service-shape-right' src={serviceShapeRight} alt='' />
       <Container>
         <Row>
-          <Col xl={12}>
+          <Col xl={12} data-aos='fade-up'>
             <div className='section-title'>
               <Link className='button-border'>
                 Our Services <FaArrowRightLong />

@@ -14,7 +14,7 @@ const Hero = () => {
       <img className='banner-shape-right' src={bannerShapeRight} alt='' />
       <Container>
         <Row>
-          <Col xl={12}>
+          <Col xl={12} data-aos='fade-down'>
             <div className='banner-content'>
               <Link to='/' className='button-border'>
                 Explore roadmaps <FaArrowRightLong />

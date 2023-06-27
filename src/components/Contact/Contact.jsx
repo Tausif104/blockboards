@@ -10,7 +10,7 @@ const Contact = () => {
       {/* <img className='contact-shape' src={contactShape} alt="" /> */}
       <Container>
         <Col xl={12}>
-          <div className='contact-cta'>
+          <div className='contact-cta' data-aos='fade-up'>
             <Link className='button-border' to='/'>
               Contact us <FaArrowRightLong />
             </Link>

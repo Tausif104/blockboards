@@ -13,6 +13,7 @@ const Blog = () => {
     dots: true,
     arrows: false,
     infinite: true,
+    autoplay: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,

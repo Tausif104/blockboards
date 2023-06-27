@@ -17,7 +17,7 @@ const HowItWorks = () => {
       <img className='step-shape3' src={stepShape3} alt='' />
       <Container>
         <Row>
-          <Col xl={12}>
+          <Col xl={12} data-aos='fade-up'>
             <div className='section-title'>
               <h2>How does it work?</h2>
               <p>Getting started is easy</p>
@@ -26,7 +26,7 @@ const HowItWorks = () => {
         </Row>
         <Row className='gy-5'>
           <Col xl={12}>
-            <div className='how-item how-item-one'>
+            <div className='how-item how-item-one' data-aos='zoom-in'>
               <div className='how-item-one-inner'>
                 <Link to='/' className='button-border'>
                   Step 1:
@@ -43,7 +43,7 @@ const HowItWorks = () => {
               <img className='desktop-image' src={ImageOne} alt='' />
             </div>
           </Col>
-          <Col lg={6}>
+          <Col lg={6} data-aos='fade-right'>
             <div className='how-item how-item-two'>
               <div className='how-item-two-inner'>
                 <img src={ImageTwo} alt='' />
@@ -59,7 +59,7 @@ const HowItWorks = () => {
               </div>
             </div>
           </Col>
-          <Col lg={6}>
+          <Col lg={6} data-aos='fade-left'>
             <div className='how-item how-item-three'>
               <div className='how-item-three-inner'>
                 <div className='how-item-three-content'>
