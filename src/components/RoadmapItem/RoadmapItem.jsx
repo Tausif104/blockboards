@@ -14,19 +14,18 @@ const RoadmapItem = ({ item, inverted, roadmapCount }) => {
     <>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title className='text-dark'>{item.title}</Modal.Title>
+          <Modal.Title className='text-white'>{item.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>{item.description}</Modal.Body>
         <Modal.Footer>
-          <Button variant='secondary' onClick={handleClose}>
+          <Button variant='secondary modal_btn' onClick={handleClose}>
             Close
           </Button>
         </Modal.Footer>
       </Modal>
       <div
-        className={`${
-          inverted ? 'roadmap-normal' : 'roadmap-inverted'
-        } roadmap-item-${roadmapCount} roadmap-item-common`}
+        className={`${inverted ? 'roadmap-normal' : 'roadmap-inverted'
+          } roadmap-item-${roadmapCount} roadmap-item-common`}
       >
         <div className='date'>{item.date}</div>
         <div className="circle"></div>

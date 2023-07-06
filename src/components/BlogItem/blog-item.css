@@ -85,6 +85,7 @@ section.blog-section {
 .blog-shape {
   position: absolute;
   top: 25%;
+  left: -130px;
   z-index: -1;
 }
 

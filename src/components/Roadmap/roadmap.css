@@ -9,8 +9,15 @@
     position: relative;
     z-index: 2;
 }
+.modal-content{
+    background: linear-gradient(to left, #333, #333 50%, #333 75%);
+}
+.modal_btn{
+    background: linear-gradient(93deg, #2950B8 0%, #B30ACE 99.48%);
+    border: 0;
+}
 .modal-body {
-    color: #333;
+    color: #fff;
 }
 
 .roadmap-shape-left {

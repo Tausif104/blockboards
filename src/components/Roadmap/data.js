@@ -6,7 +6,7 @@ const items = [
   },
   {
     date: 'May, 2023',
-    title: 'Testnet testing Complex',
+    title: 'Testnet testing Complete',
     description:
       'Beta test completed with 1000 participants Front end code tested',
   },
